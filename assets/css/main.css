@@ -3,7 +3,13 @@
 /* ページ全体のスタイル
 ------------------------------------------ */
 
-body {}
+body {
+    /*font:noto-serif-jp-regular*/
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
 
 a {}
 
@@ -19,13 +25,6 @@ li {
 
 /* フォント
 ------------------------------------------ */
-
-.noto-serif-jp-regular {
-  font-family: "Noto Serif JP", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
 
 .noto-serif-jp-medium {
   font-family: "Noto Serif JP", serif;
