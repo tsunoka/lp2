@@ -73,10 +73,13 @@ li {
 ------------------------------------------ */
 
 
-/* ヘッダー
+/* header
 ------------------------------------------ */
 
-.header__container{
+
+/* main-visual
+------------------------------------------ */
+.main-visual__container{
   height: 450px;
   background-image: url("../images/mv_sp_02.jpg");
   object-fit: cover;
