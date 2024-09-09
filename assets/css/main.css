@@ -3,18 +3,53 @@
 /* ページ全体のスタイル
 ------------------------------------------ */
 
-body {
-}
+body {}
 
-a {
-}
+a {}
 
-a:hover {
-}
+a:hover {}
 
-img {
-}
+img {}
 
 li {
-  list-style: none; /* リスト先頭の記号を表示しないときに指定します */
+  list-style: none;
+  /* リスト先頭の記号を表示しないときに指定します */
+}
+
+
+/* フォント
+------------------------------------------ */
+
+.noto-serif-jp-regular {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif-jp-medium {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.noto-serif-jp-semibold {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.marcellus-regular {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.eb-garamond-regular {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
