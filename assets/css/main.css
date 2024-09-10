@@ -84,10 +84,11 @@ span{
 	background-color: #f0f4ff;
 	text-align: center;
 	padding:18px;
-}
 
-.shop-buttons__item{
-	margin-bottom:17px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 18px;
 }
 
 .shop-buttons__item-name{
@@ -103,16 +104,6 @@ span{
 }
 
 /*ボタン部分*/
-.shop-buttons__buttons-container{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.shop-buttons__button:nth-child(1){
-	margin-bottom:17px;
-}
-
 .shop-buttons__button a{
     color: #fff;
     width: 300px;
@@ -146,6 +137,11 @@ span{
 
 .shop-buttons__buy a:hover{
 	color: #5dd5ab;
+}
+
+/*shop-button:PC表示*/
+@media(min-width:768px){
+
 }
 
 
