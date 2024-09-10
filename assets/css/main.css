@@ -208,6 +208,14 @@ span{
 	object-fit: cover;
 }
 
+/*PC*/
+@media(min-width:768px){
+	.main-visual__container{
+		background-image: url("../images/mv_pc_01.jpg");
+		height:720px;
+	}
+}
+
 
 /* feature
 ------------------------------------------ */
@@ -241,6 +249,29 @@ span{
 	line-height: 2.25;
 }
 
+/*PC*/
+
+@media(min-width:768px){
+	.feature{
+		background-image: url("../images/index_feature_pc_03.jpg");
+	}
+
+	.feature .container{
+		width:30%;
+		margin-top:8%;
+		margin-left:55%;
+		margin-right: auto;
+	}
+
+	.feature__heading{
+		text-align: left;
+	}
+
+	.feature__heading-en{
+		font-size: 40px;
+	}
+
+}
 
 /* voices
 ------------------------------------------ */
