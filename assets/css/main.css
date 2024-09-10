@@ -109,6 +109,10 @@ span{
 	align-items: center;
 }
 
+.shop-buttons__button:nth-child(1){
+	margin-bottom:17px;
+}
+
 .shop-buttons__button a{
     color: #fff;
     width: 300px;
@@ -142,10 +146,6 @@ span{
 
 .shop-buttons__buy a:hover{
 	color: #5dd5ab;
-}
-
-.shop-buttons__button:nth-child(1) a{
-	margin-bottom:17px;
 }
 
 
