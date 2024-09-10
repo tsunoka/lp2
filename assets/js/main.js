@@ -29,12 +29,14 @@ function slick_resize(){
         //１個ずつスライド
         $(".voices__customers-list").slick({
             dots:true,
+            arrows:true,
         });
     } else if(window.matchMedia("(min-width: 768px)").matches) {
         //画面横幅が768px以上のときの処理
         //３つずつスライド
         $('.voices__customers-list').slick({
             dots:true,
+            arrows:true,
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 3
