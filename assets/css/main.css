@@ -77,7 +77,7 @@ span{
 /* 使いまわす設定
 ------------------------------------------ */
 .container{
-	margin:17px;
+	margin:50px 17px;
 }
 
 
@@ -216,9 +216,30 @@ span{
 	background-image: url("../images/index_feature_sp_04.jpg");
 	object-fit: cover;
 	color: #fff;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
+.feature__heading{
+	text-align: center;
+	margin-bottom:17px;
+}
 
+.feature__heading-en{
+	font-size:30px;
+	margin-bottom:10px;
+}
+
+.feature__heading-ja{
+	font-size:25px;
+}
+
+.feature__text{
+	font-size: 14px;
+	line-height: 2.25;
+}
 
 
 /* voices
