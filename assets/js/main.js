@@ -1,8 +1,27 @@
 //lp2 JS
 
 //Voices(slick)
-//画面リサイズ時
-$(window).resize(slick_resize());
+//画面リサイズ時：横幅が変わったらリロード
+$(window).resize(function() {
+    var timer=false;
+    var prewidth = $(window).width();
+
+    if (timer !== false) {
+    clearTimeout(timer);
+    }
+    timer = setTimeout(function() {
+    var nowWidth = $(window).width();
+    if(prewidth !== nowWidth){
+    // 横幅が変わっていたらリロード
+    location.reload();
+    }
+    prewidth = nowWidth;
+    }, 200);
+    });
+
+    //画面ロード時
+$(document).ready(slick_resize());
+
 
 function slick_resize(){
     if (window.matchMedia("(max-width: 767px)").matches) {
@@ -23,5 +42,3 @@ function slick_resize(){
     }
 }
 
-//画面ロード時
-$(slick_resize());
