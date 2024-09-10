@@ -83,7 +83,7 @@ span{
 .shop-buttons .container{
 	background-color: #f0f4ff;
 	text-align: center;
-	padding:18px;
+	padding: 25px 18px;
 
 	display: flex;
 	flex-direction: column;
