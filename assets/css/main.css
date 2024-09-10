@@ -37,6 +37,9 @@ li {
 	list-style: none;
 }
 
+span{
+	display: block;
+}
 
 /* フォント
 ------------------------------------------ */
@@ -71,6 +74,79 @@ li {
 
 /* 使いまわす設定
 ------------------------------------------ */
+.container{
+	margin:17px;
+}
+
+
+/*shop-buttons*/
+.shop-buttons .container{
+	background-color: #f0f4ff;
+	text-align: center;
+	padding:18px;
+}
+
+.shop-buttons__item{
+	margin-bottom:17px;
+}
+
+.shop-buttons__item-name{
+    font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.shop-buttons__item-price{
+    font-size: 14px;
+    margin-top: 4px;
+    letter-spacing: 1px;
+    color: #111;
+}
+
+/*ボタン部分*/
+.shop-buttons__buttons-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.shop-buttons__button a{
+    color: #fff;
+    width: 300px;
+    padding: 17px 30px;
+    border-radius: 3rem;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+/*色指定：通常時*/
+.shop-buttons__online-shop a{
+	background-color: #46c4db;
+	border: solid 2px #46c4db;
+
+}
+
+.shop-buttons__buy a{
+	background-color: #5dd5ab;
+	border: solid 2px #5dd5ab;
+
+}
+
+/*色指定：マウスオーバー時*/
+.shop-buttons__button a:hover{
+	background-color: #fff;
+}
+
+.shop-buttons__online-shop a:hover{
+	color: #46c4db;
+}
+
+.shop-buttons__buy a:hover{
+	color: #5dd5ab;
+}
+
+.shop-buttons__button:nth-child(1) a{
+	margin-bottom:17px;
+}
 
 
 /* header
@@ -86,15 +162,17 @@ li {
 	text-align: center;
 }
 
+.header__site-name{
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding: 20px 0;
+}
+
 /* main-visual
 ------------------------------------------ */
 .main-visual__container {
-	padding-top: 30px;
-	height: 450px;
+	padding-top: 50px;
+	height: 600px;
 	background-image: url("../images/mv_sp_02.jpg");
 	object-fit: cover;
-}
-
-.main-visual h2 span {
-	display: block;
 }
