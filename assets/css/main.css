@@ -113,6 +113,12 @@ span{
     letter-spacing: 1px;
 }
 
+.shop-buttons__buttons-container{
+	display: flex;
+	flex-direction: column;
+	row-gap: 17px;
+}
+
 /*色指定：通常時*/
 .shop-buttons__online-shop a{
 	background-color: #46c4db;
@@ -141,7 +147,35 @@ span{
 
 /*shop-button:PC表示*/
 @media(min-width:768px){
+	.shop-buttons .container{
+		flex-direction: row;
+		column-gap:70px;
+		justify-content: center;
 
+		margin:40px 15%;
+		padding:35px 0;
+	}
+
+	/*商品タイトル部分*/
+	.shop-buttons__item{
+		text-align: left;
+	}
+
+	.shop-buttons__item-name{
+		font-size: 25390
+		px;
+	}
+
+	.shop-buttons__item-price{
+		font-size:16px;
+	}
+
+
+	/*ボタン部分*/
+	.shop-buttons__buttons-container{
+		flex-direction: row;
+		column-gap: 30px;
+	}
 }
 
 
