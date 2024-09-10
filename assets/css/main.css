@@ -6,7 +6,6 @@
 body {
 	/*font:noto-serif-jp-regular*/
 	font-family: "Noto Serif JP", serif;
-	font-optical-sizing: auto;
 	font-weight: 400;
 	font-style: normal;
 }
@@ -46,14 +45,12 @@ span{
 
 .noto-serif-jp-medium {
 	font-family: "Noto Serif JP", serif;
-	font-optical-sizing: auto;
 	font-weight: 500;
 	font-style: normal;
 }
 
 .noto-serif-jp-semibold {
 	font-family: "Noto Serif JP", serif;
-	font-optical-sizing: auto;
 	font-weight: 600;
 	font-style: normal;
 }
@@ -66,8 +63,13 @@ span{
 
 .eb-garamond-regular {
 	font-family: "EB Garamond", serif;
-	font-optical-sizing: auto;
 	font-weight: 400;
+	font-style: normal;
+}
+
+.eb-garamond-bold {
+	font-family: "EB Garamond", serif;
+	font-weight: 700;
 	font-style: normal;
 }
 
@@ -209,6 +211,15 @@ span{
 
 /* feature
 ------------------------------------------ */
+.feature{
+	height:680px;
+	background-image: url("../images/index_feature_sp_04.jpg");
+	object-fit: cover;
+	color: #fff;
+}
+
+
+
 
 /* voices
 ------------------------------------------ */
