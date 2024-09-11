@@ -212,6 +212,7 @@ span{
     font-size: 25px;
     letter-spacing: 5px;
     padding: 20px 0;
+	z-index: 2;
 }
 
 /* main-visual
@@ -380,6 +381,11 @@ span{
 	background: linear-gradient(to right, #f4ffe8, #c6f0fe);
 	display: flex;
 	justify-content: center;
+}
+
+.qa .container{
+	margin-top:35px;
+	margin-bottom: 15px;
 }
 
 /*アコーディオンメニュー*/
