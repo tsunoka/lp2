@@ -30,6 +30,8 @@ function slick_resize(){
         $(".voices__customers-list").slick({
             dots:true,
             arrows:true,
+            prevArrow:'<button class="custom-arrows custom-arrows__prev"><i class="bi bi-arrow-left-short"></i></button>',
+            nextArrow:'<button class="custom-arrows custom-arrows__next"><i class="bi bi-arrow-right-short"></i></button>',
         });
     } else if(window.matchMedia("(min-width: 768px)").matches) {
         //画面横幅が768px以上のときの処理
@@ -37,6 +39,8 @@ function slick_resize(){
         $('.voices__customers-list').slick({
             dots:true,
             arrows:true,
+            prevArrow:'<button class="custom-arrows custom-arrows__prev"><i class="bi bi-arrow-left-short"></i></button>',
+            nextArrow:'<button class="custom-arrows custom-arrows__next"><i class="bi bi-arrow-right-short"></i></button>',
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 3
