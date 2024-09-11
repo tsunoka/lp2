@@ -376,5 +376,66 @@ span{
 /* qa
 ------------------------------------------ */
 
+.qa{
+	background: linear-gradient(to right, #f4ffe8, #c6f0fe);
+	display: flex;
+	justify-content: center;
+}
+
+/*アコーディオンメニュー*/
+.qa__accordion {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+@media(min-width:768px) {
+    .qa__accordion {
+        margin: auto 7% 20px 7%;
+    }
+}
+
+/* アコーディオンのタイトル部分 */
+.qa__accordion-title {
+    margin: 0;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+
+}
+
+.qa__accordion-title div,
+.qa__accordion-title i {
+    pointer-events: none;
+}
+
+/*アコーディオン矢印（開くと上下が変わる）*/
+.qa__accordion-title i {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 18px;
+}
+
+/* アコーディオンのコンテンツ部分 */
+.qa__accordion-content {
+    display: none;
+    /* 初期状態は非表示 */
+    background-color: #fff;
+}
+
+.qa__question,
+.qa__answer {
+    display: flex;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+/*Q&A本文*/
+.qa__text {
+    margin-right: 20px;
+}
+
+
 /* footer
 ------------------------------------------ */
