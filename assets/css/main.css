@@ -67,9 +67,9 @@ span{
 	font-style: normal;
 }
 
-.eb-garamond-regular {
+.eb-garamond-medium {
 	font-family: "EB Garamond", serif;
-	font-weight: 400;
+	font-weight: 500;
 	font-style: normal;
 }
 
@@ -399,7 +399,6 @@ span{
     margin: 0;
     background-color: #fff;
     cursor: pointer;
-    position: relative;
     display: flex;
 
 }
@@ -409,12 +408,12 @@ span{
     pointer-events: none;
 }
 
-/*アコーディオン矢印（開くと上下が変わる）*/
-.qa__accordion-title i {
-    position: absolute;
-    top: 5%;
-    right: 5%;
-    font-size: 18px;
+.qa__accordion-title i{
+	margin-top:10px;
+}
+
+.qa__accordion-heading{
+	margin-right: 10px;
 }
 
 /* アコーディオンのコンテンツ部分 */
@@ -424,16 +423,33 @@ span{
     background-color: #fff;
 }
 
-.qa__question,
-.qa__answer {
+.qa__accordion-question,
+.qa__accordion-answer {
     display: flex;
-    padding: 10px 20px;
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.qa__accordion-question{
+	padding: 15px 13px;
+}
+
+.qa__accordion-answer{
+	padding:0 13px 25px;
+}
+
+.qa__accordion-heading{
+	font-size: 15px;
 }
 
 /*Q&A本文*/
-.qa__text {
-    margin-right: 20px;
+.qa__accordion-text{
+	line-height: 1.75;
+	letter-spacing: 0;
+	font-size: 15px;
+}
+
+.qa__accordion-question .qa__accordion-text{
+	color:#444;
 }
 
 
