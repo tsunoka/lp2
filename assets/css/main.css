@@ -484,6 +484,13 @@ span{
 	font-size: 33px;
 }
 
+@media(min-width:768px){
+	.footer__back-to-top{
+		margin-right: 150px;
+	}
+
+}
+
 /*フッター本体*/
 .footer__container{
 	background-color: #0071ce;
@@ -510,4 +517,32 @@ span{
 
 .footer__copyright{
 	font-size: 9px;
+}
+
+/*PC*/
+@media(min-width:768px){
+	.footer__container{
+		padding:30px 180px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		column-gap: 50px;
+	}
+
+	.footer__site-name{
+		font-size: 31px;
+		letter-spacing: 9px;
+	}
+
+	.footer__nav ul{
+		column-gap: 24px;
+	}
+
+	.footer__nav ul li a{
+		font-size:13px;
+	}
+
+	.footer__copyright{
+		font-size: 11px;
+	}
 }
