@@ -461,3 +461,53 @@ span{
 
 /* footer
 ------------------------------------------ */
+
+/*上に戻るボタン*/
+
+.footer__back-to-top{
+	text-align: right;
+	margin-right: 20px;
+	margin-left: auto;
+}
+
+.footer__back-to-top-inner{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width:50px;
+	height:50px;
+	background-color: #0071ce;
+}
+
+.footer__back-to-top i{
+	color: #fff;
+	font-size: 33px;
+}
+
+/*フッター本体*/
+.footer__container{
+	background-color: #0071ce;
+	color: #fff;
+	text-align: center;
+	padding:23px 40px;
+}
+
+.footer__site-name{
+	font-size: 28px;
+    letter-spacing: 6px;
+}
+
+.footer__nav ul{
+	display: flex;
+	column-gap: 24px;
+	margin:25px 0;
+}
+
+.footer__nav ul li a{
+	color: #fff;
+	font-size: 12px;
+}
+
+.footer__copyright{
+	font-size: 9px;
+}
