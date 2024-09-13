@@ -318,6 +318,7 @@ span {
 
 @media(min-width:768px) {
 	.feature {
+		height:550px;
 		background-image: url("../images/index_feature_pc_03.jpg");
 	}
 
