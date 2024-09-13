@@ -86,6 +86,12 @@ span {
 	margin: 50px 17px;
 }
 
+@media(min-width:768px){
+	.container{
+		margin:50px 15%;
+	}
+}
+
 /*セクションタイトル*/
 .section-title {
 	text-align: center;
