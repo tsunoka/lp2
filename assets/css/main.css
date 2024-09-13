@@ -470,7 +470,7 @@ span{
 	margin-left: auto;
 }
 
-.footer__back-to-top-inner{
+.footer__back-to-top-inner a{
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
