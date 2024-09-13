@@ -42,7 +42,7 @@ li {
 	list-style: none;
 }
 
-span{
+span {
 	display: block;
 }
 
@@ -82,24 +82,24 @@ span{
 
 /* 使いまわす設定
 ------------------------------------------ */
-.container{
-	margin:50px 17px;
+.container {
+	margin: 50px 17px;
 }
 
 /*セクションタイトル*/
-.section-title{
+.section-title {
 	text-align: center;
 	margin-bottom: 30px;
 }
 
-.section-title__en{
+.section-title__en {
 	font-size: 31px;
 	margin-bottom: 2px;
 }
 
 
 /*shop-buttons*/
-.shop-buttons .container{
+.shop-buttons .container {
 	background-color: #f0f4ff;
 	text-align: center;
 	padding: 25px 18px;
@@ -110,85 +110,85 @@ span{
 	row-gap: 18px;
 }
 
-.shop-buttons__item-name{
-    font-size: 18px;
+.shop-buttons__item-name {
+	font-size: 18px;
 	letter-spacing: 2px;
 }
 
-.shop-buttons__item-price{
-    font-size: 14px;
-    margin-top: 4px;
-    color: #111;
+.shop-buttons__item-price {
+	font-size: 14px;
+	margin-top: 4px;
+	color: #111;
 }
 
 /*ボタン部分*/
-.shop-buttons__button a{
-    color: #fff;
-    width: 300px;
-    padding: 17px 30px;
-    border-radius: 3rem;
-    font-size: 17px;
+.shop-buttons__button a {
+	color: #fff;
+	width: 300px;
+	padding: 17px 30px;
+	border-radius: 3rem;
+	font-size: 17px;
 }
 
-.shop-buttons__buttons-container{
+.shop-buttons__buttons-container {
 	display: flex;
 	flex-direction: column;
 	row-gap: 17px;
 }
 
 /*色指定：通常時*/
-.shop-buttons__online-shop a{
+.shop-buttons__online-shop a {
 	background-color: #46c4db;
 	border: solid 2px #46c4db;
 
 }
 
-.shop-buttons__buy a{
+.shop-buttons__buy a {
 	background-color: #5dd5ab;
 	border: solid 2px #5dd5ab;
 
 }
 
 /*色指定：マウスオーバー時*/
-.shop-buttons__button a:hover{
+.shop-buttons__button a:hover {
 	background-color: #fff;
 }
 
-.shop-buttons__online-shop a:hover{
+.shop-buttons__online-shop a:hover {
 	color: #46c4db;
 }
 
-.shop-buttons__buy a:hover{
+.shop-buttons__buy a:hover {
 	color: #5dd5ab;
 }
 
 /*shop-button:PC表示*/
-@media(min-width:768px){
-	.shop-buttons .container{
+@media(min-width:768px) {
+	.shop-buttons .container {
 		flex-direction: row;
-		column-gap:70px;
+		column-gap: 70px;
 		justify-content: center;
 
-		margin:40px 15%;
-		padding:35px 0;
+		margin: 40px 15%;
+		padding: 35px 0;
 	}
 
 	/*商品タイトル部分*/
-	.shop-buttons__item{
+	.shop-buttons__item {
 		text-align: left;
 	}
 
-	.shop-buttons__item-name{
+	.shop-buttons__item-name {
 		font-size: 25px;
 	}
 
-	.shop-buttons__item-price{
-		font-size:16px;
+	.shop-buttons__item-price {
+		font-size: 16px;
 	}
 
 
 	/*ボタン部分*/
-	.shop-buttons__buttons-container{
+	.shop-buttons__buttons-container {
 		flex-direction: row;
 		column-gap: 30px;
 	}
@@ -197,10 +197,10 @@ span{
 
 /* header
 ------------------------------------------ */
-.header{
+.header {
 	position: fixed;
-	top:0;
-	left:0;
+	top: 0;
+	left: 0;
 	right: 0;
 }
 
@@ -208,48 +208,67 @@ span{
 	text-align: center;
 }
 
-.header__site-name{
-    font-size: 25px;
-    letter-spacing: 5px;
-    padding: 20px 0;
+.header__site-name {
+	font-size: 25px;
+	letter-spacing: 5px;
+	padding: 20px 0;
 	z-index: 2;
 }
 
 /* main-visual
 ------------------------------------------ */
 .main-visual__container {
-	padding:50px 17px 0;
+	padding: 50px 17px 0;
 	background-image: url("../images/mv_sp_02.jpg");
 	object-fit: cover;
 }
 
 /*PC*/
-@media(min-width:768px){
-	.main-visual__container{
+@media(min-width:768px) {
+	.main-visual__container {
 		background-image: url("../images/mv_pc_01.jpg");
-		height:720px;
+		height: 720px;
+		padding: 50px 13% 0;
 	}
 }
 
-.main-visual__heading{
-    padding-top: 370px;
+/*タイトル部分*/
+.main-visual__heading {
+	padding-top: 370px;
 }
 
-.main-visual__item-name{
-    font-size: 45px;
-    letter-spacing: 11px;
+.main-visual__item-name {
+	font-size: 45px;
+	letter-spacing: 11px;
 }
 
-.main-visual__subtext{
-	margin-top:10px;
+.main-visual__subtext {
+	margin-top: 10px;
 	letter-spacing: 6px;
-	font-size:22px;
+	font-size: 22px;
+}
+
+/*PC*/
+@media(min-width:768px) {
+	.main-visual__heading {
+		padding-top: 200px;
+	}
+
+	.main-visual__item-name {
+		font-size: 54px;
+		letter-spacing: 15px;
+	}
+
+	.main-visual__subtext {
+		font-size: 28px;
+		margin-top: 13px;
+	}
 }
 
 /* feature
 ------------------------------------------ */
-.feature{
-	height:680px;
+.feature {
+	height: 680px;
 	background-image: url("../images/index_feature_sp_04.jpg");
 	object-fit: cover;
 	color: #fff;
@@ -259,44 +278,44 @@ span{
 	align-items: center;
 }
 
-.feature__heading{
+.feature__heading {
 	text-align: center;
-	margin-bottom:17px;
+	margin-bottom: 17px;
 }
 
-.feature__heading-en{
-	font-size:30px;
-	margin-bottom:10px;
+.feature__heading-en {
+	font-size: 30px;
+	margin-bottom: 10px;
 }
 
-.feature__heading-ja{
-	font-size:25px;
+.feature__heading-ja {
+	font-size: 25px;
 }
 
-.feature__text{
+.feature__text {
 	font-size: 14px;
 	line-height: 2.25;
 }
 
 /*PC*/
 
-@media(min-width:768px){
-	.feature{
+@media(min-width:768px) {
+	.feature {
 		background-image: url("../images/index_feature_pc_03.jpg");
 	}
 
-	.feature .container{
-		width:30%;
-		margin-top:8%;
-		margin-left:55%;
+	.feature .container {
+		width: 30%;
+		margin-top: 8%;
+		margin-left: 55%;
 		margin-right: auto;
 	}
 
-	.feature__heading{
+	.feature__heading {
 		text-align: left;
 	}
 
-	.feature__heading-en{
+	.feature__heading-en {
 		font-size: 40px;
 	}
 
@@ -305,170 +324,170 @@ span{
 /* voices
 ------------------------------------------ */
 
-.voices .container{
-	margin:50px 30px;
+.voices .container {
+	margin: 50px 30px;
 }
 
-.voices__customer-container{
-	margin:20px;
-	padding:30px 20px;
-	background-color:#dbf7f9 ;
+.voices__customer-container {
+	margin: 20px;
+	padding: 30px 20px;
+	background-color: #dbf7f9;
 	flex-direction: column;
 	align-items: center;
 }
 
-.voices__customer-info{
+.voices__customer-info {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom:20px;
+	margin-bottom: 20px;
 }
 
-.voices__customer-info img{
-	margin-bottom:7px;
+.voices__customer-info img {
+	margin-bottom: 7px;
 }
 
-.voices__text{
-	font-size:14px;
+.voices__text {
+	font-size: 14px;
 	line-height: 2;
 	letter-spacing: 0;
 }
 
 /*slick設定*/
-.slick-initialized .slick-slide{
+.slick-initialized .slick-slide {
 	display: flex;
 }
 
 /*slick arrow部分*/
-.custom-arrows{
+.custom-arrows {
 	background-color: #00afbf;
 	border-radius: 10rem;
-	width:30px;
+	width: 30px;
 	height: 30px;
 	position: absolute;
-	top:50%;
+	top: 50%;
 
 	z-index: 10;
 }
 
-.custom-arrows i{
+.custom-arrows i {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-size: 28px;
-	color:#fff;
+	color: #fff;
 }
 
-.custom-arrows__prev{
-	left:-16px;
+.custom-arrows__prev {
+	left: -16px;
 }
 
-.custom-arrows__next{
-	right:-16px;
+.custom-arrows__next {
+	right: -16px;
 }
 
 /*ドット部分*/
-.slick-dots{
-	bottom:-12px;
+.slick-dots {
+	bottom: -12px;
 }
 
-.slick-dots li{
-	width:10px;
+.slick-dots li {
+	width: 10px;
 }
 
-.slick-dots li button:before{
+.slick-dots li button:before {
 	font-size: 11px;
-	color:#eee;
+	color: #eee;
 	opacity: 1;
 }
 
-.slick-dots li.slick-active button:before{
-	color:#00afbf;
+.slick-dots li.slick-active button:before {
+	color: #00afbf;
 	opacity: 1;
 }
 
 /* qa
 ------------------------------------------ */
 
-.qa{
+.qa {
 	background: linear-gradient(to right, #f4ffe8, #c6f0fe);
 	display: flex;
 	justify-content: center;
 }
 
-.qa .container{
-	margin-top:35px;
+.qa .container {
+	margin-top: 35px;
 	margin-bottom: 15px;
 }
 
 /*アコーディオンメニュー*/
 .qa__accordion {
-    overflow: hidden;
-    margin-bottom: 20px;
+	overflow: hidden;
+	margin-bottom: 20px;
 }
 
 @media(min-width:768px) {
-    .qa__accordion {
-        margin: auto 7% 20px 7%;
-    }
+	.qa__accordion {
+		margin: auto 7% 20px 7%;
+	}
 }
 
 /* アコーディオンのタイトル部分 */
 .qa__accordion-title {
-    margin: 0;
-    background-color: #fff;
-    cursor: pointer;
-    display: flex;
+	margin: 0;
+	background-color: #fff;
+	cursor: pointer;
+	display: flex;
 
 }
 
 .qa__accordion-title div,
 .qa__accordion-title i {
-    pointer-events: none;
+	pointer-events: none;
 }
 
-.qa__accordion-title i{
-	margin-top:10px;
+.qa__accordion-title i {
+	margin-top: 10px;
 }
 
-.qa__accordion-heading{
+.qa__accordion-heading {
 	margin-right: 10px;
 }
 
 /* アコーディオンのコンテンツ部分 */
 .qa__accordion-content {
-    display: none;
-    /* 初期状態は非表示 */
-    background-color: #fff;
+	display: none;
+	/* 初期状態は非表示 */
+	background-color: #fff;
 }
 
 .qa__accordion-question,
 .qa__accordion-answer {
-    display: flex;
-    font-size: 14px;
+	display: flex;
+	font-size: 14px;
 }
 
-.qa__accordion-question{
+.qa__accordion-question {
 	padding: 15px 13px;
 }
 
-.qa__accordion-answer{
-	padding:0 13px 25px;
+.qa__accordion-answer {
+	padding: 0 13px 25px;
 }
 
-.qa__accordion-heading{
+.qa__accordion-heading {
 	font-size: 15px;
 }
 
 /*Q&A本文*/
-.qa__accordion-text{
+.qa__accordion-text {
 	line-height: 1.75;
 	letter-spacing: 0;
 	font-size: 15px;
 }
 
-.qa__accordion-question .qa__accordion-text{
-	color:#444;
+.qa__accordion-question .qa__accordion-text {
+	color: #444;
 }
 
 
@@ -477,85 +496,85 @@ span{
 
 /*上に戻るボタン*/
 
-.footer__back-to-top{
+.footer__back-to-top {
 	text-align: right;
 	margin-right: 20px;
 	margin-left: auto;
 }
 
-.footer__back-to-top-inner a{
+.footer__back-to-top-inner a {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	width:50px;
-	height:50px;
+	width: 50px;
+	height: 50px;
 	background-color: #0071ce;
 }
 
-.footer__back-to-top i{
+.footer__back-to-top i {
 	color: #fff;
 	font-size: 33px;
 }
 
-@media(min-width:768px){
-	.footer__back-to-top{
+@media(min-width:768px) {
+	.footer__back-to-top {
 		margin-right: 150px;
 	}
 
 }
 
 /*フッター本体*/
-.footer__container{
+.footer__container {
 	background-color: #0071ce;
 	color: #fff;
 	text-align: center;
-	padding:23px 40px;
+	padding: 23px 40px;
 }
 
-.footer__site-name{
+.footer__site-name {
 	font-size: 28px;
-    letter-spacing: 6px;
+	letter-spacing: 6px;
 }
 
-.footer__nav ul{
+.footer__nav ul {
 	display: flex;
 	column-gap: 24px;
-	margin:25px 0;
+	margin: 25px 0;
 }
 
-.footer__nav ul li a{
+.footer__nav ul li a {
 	color: #fff;
 	font-size: 12px;
 }
 
-.footer__copyright{
+.footer__copyright {
 	font-size: 9px;
 }
 
 /*PC*/
-@media(min-width:768px){
-	.footer__container{
-		padding:30px 180px;
+@media(min-width:768px) {
+	.footer__container {
+		padding: 30px 180px;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 		column-gap: 50px;
 	}
 
-	.footer__site-name{
+	.footer__site-name {
 		font-size: 31px;
 		letter-spacing: 9px;
 	}
 
-	.footer__nav ul{
+	.footer__nav ul {
 		column-gap: 24px;
 	}
 
-	.footer__nav ul li a{
-		font-size:13px;
+	.footer__nav ul li a {
+		font-size: 13px;
 	}
 
-	.footer__copyright{
+	.footer__copyright {
 		font-size: 11px;
 	}
 }
