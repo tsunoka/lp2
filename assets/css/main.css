@@ -52,6 +52,12 @@ main {
 }
 
 @media(min-width:768px) {
+	main{
+		padding: 0;
+	}
+}
+
+@media(min-width:1500px) {
 	main {
 		padding: 0 clamp(0rem, -55.804rem + 59.52vw, 15.625rem);
 	}
@@ -266,7 +272,7 @@ main {
 		background-image: url("../images/mv_pc_01.jpg");
 		background-position: center;
 		height: 720px;
-		padding: 50px 13% 0;
+		padding: 50px clamp(3.75rem, -13.125rem + 27vw, 12.188rem) 0;
 	}
 }
 
@@ -345,10 +351,10 @@ main {
 	}
 
 	.feature .container {
-		width: 30%;
-		margin-top: 8%;
-		margin-left: 55%;
-		margin-right: auto;
+		width: 510px;
+		margin-top: clamp(7.188rem, 6.86rem + 0.68vw, 7.5rem);
+		margin-left: clamp(8.063rem, -37.577rem + 95.08vw, 51.563rem);
+		padding:0 30px;
 	}
 
 	.feature__heading {
