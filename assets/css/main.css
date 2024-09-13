@@ -86,9 +86,9 @@ span {
 	margin: 50px 17px;
 }
 
-@media(min-width:768px){
-	.container{
-		margin:50px 15%;
+@media(min-width:768px) {
+	.container {
+		margin: 50px 15%;
 	}
 }
 
@@ -103,15 +103,15 @@ span {
 	margin-bottom: 2px;
 }
 
-@media(min-width:768px){
-	.section-title__en{
+@media(min-width:768px) {
+	.section-title__en {
 		font-size: 45px;
 		margin-bottom: 5px;
-		}
+	}
 
-		.section-title__ja{
-			font-size:19px;
-		}
+	.section-title__ja {
+		font-size: 19px;
+	}
 }
 
 
@@ -318,7 +318,7 @@ span {
 
 @media(min-width:768px) {
 	.feature {
-		height:550px;
+		height: 550px;
 		background-image: url("../images/index_feature_pc_03.jpg");
 	}
 
@@ -345,6 +345,12 @@ span {
 .voices .container {
 	margin: 50px 30px;
 }
+/*PC*/
+@media(min-width:768px) {
+	.voices .container {
+		margin: 50px 16% 80px;
+	}
+}
 
 .voices__customer-container {
 	margin: 20px;
@@ -369,6 +375,13 @@ span {
 	font-size: 14px;
 	line-height: 2;
 	letter-spacing: 0;
+}
+/*PC*/
+@media(min-width:768px){
+	.voices__text{
+		font-size:16px;
+		line-height:1.75;
+	}
 }
 
 /*slick設定*/
@@ -404,6 +417,28 @@ span {
 	right: -16px;
 }
 
+/*PC*/
+@media(min-width:768px){
+	.custom-arrows{
+		top:45%;
+		width:45px;
+		height:45px;
+	}
+
+	.custom-arrows i{
+		font-size:40px;
+	}
+
+	.custom-arrows__prev{
+		left:-57px;
+	}
+
+	.custom-arrows__next{
+		right:-57px;
+	}
+
+}
+
 /*ドット部分*/
 .slick-dots {
 	bottom: -12px;
@@ -422,6 +457,13 @@ span {
 .slick-dots li.slick-active button:before {
 	color: #00afbf;
 	opacity: 1;
+}
+
+/*PC*/
+@media(min-width:768px){
+	.slick-dots{
+		bottom:-18px;
+	}
 }
 
 /* qa
@@ -446,7 +488,7 @@ span {
 
 @media(min-width:768px) {
 	.qa__accordion {
-		width:600px;
+		width: 600px;
 	}
 }
 
@@ -498,11 +540,11 @@ span {
 	font-size: 15px;
 }
 
-@media(min-width:768px){
-	.qa__accordion-question i{
+@media(min-width:768px) {
+	.qa__accordion-question i {
 		margin-right: 0;
-		margin-left:auto;
-		margin-top:0;
+		margin-left: auto;
+		margin-top: 0;
 	}
 }
 
