@@ -103,6 +103,17 @@ span {
 	margin-bottom: 2px;
 }
 
+@media(min-width:768px){
+	.section-title__en{
+		font-size: 45px;
+		margin-bottom: 5px;
+		}
+
+		.section-title__ja{
+			font-size:19px;
+		}
+}
+
 
 /*shop-buttons*/
 .shop-buttons .container {
