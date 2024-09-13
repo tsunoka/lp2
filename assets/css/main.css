@@ -630,6 +630,7 @@ main {
 	color: #fff;
 	text-align: center;
 	padding: 23px 40px;
+	white-space: nowrap;
 }
 
 .footer__site-name {
@@ -641,6 +642,7 @@ main {
 	display: flex;
 	column-gap: 24px;
 	margin: 25px 0;
+	justify-content: center;
 }
 
 .footer__nav ul li a {
@@ -655,7 +657,7 @@ main {
 /*PC*/
 @media(min-width:768px) {
 	.footer__container {
-		padding: 30px 180px;
+		padding: 30px clamp(1.625rem, -8.473rem + 21.04vw, 11.25rem);
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -668,7 +670,9 @@ main {
 	}
 
 	.footer__nav ul {
-		column-gap: 24px;
+		flex-wrap: wrap;
+		row-gap:10px;
+		justify-content: left;
 	}
 
 	.footer__nav ul li a {
@@ -677,5 +681,6 @@ main {
 
 	.footer__copyright {
 		font-size: 11px;
+		white-space: wrap;
 	}
 }
