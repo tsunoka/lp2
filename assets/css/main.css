@@ -53,7 +53,7 @@ main {
 
 @media(min-width:768px) {
 	main {
-		padding: 0;
+		padding: 0 clamp(0rem, -55.804rem + 59.52vw, 15.625rem);
 	}
 }
 
