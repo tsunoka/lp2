@@ -218,8 +218,7 @@ span{
 /* main-visual
 ------------------------------------------ */
 .main-visual__container {
-	padding-top: 50px;
-	height: 600px;
+	padding:50px 17px 0;
 	background-image: url("../images/mv_sp_02.jpg");
 	object-fit: cover;
 }
@@ -232,6 +231,20 @@ span{
 	}
 }
 
+.main-visual__heading{
+    padding-top: 370px;
+}
+
+.main-visual__item-name{
+    font-size: 45px;
+    letter-spacing: 11px;
+}
+
+.main-visual__subtext{
+	margin-top:10px;
+	letter-spacing: 6px;
+	font-size:22px;
+}
 
 /* feature
 ------------------------------------------ */
