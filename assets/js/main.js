@@ -55,7 +55,7 @@ function slick_resize() {
 $('.qa__accordion-title').on('click', function (e) {
     // .accordion-contentを選択
     var content = $(e.target).next();
-    //console.log(content);
+    console.log(e.target);
 
     //矢印を取得
     var caret = $(e.target).children("i");

@@ -448,6 +448,7 @@ span {
 }
 
 .qa__accordion-title div,
+.qa__accordion-title p,
 .qa__accordion-title i {
 	pointer-events: none;
 }
