@@ -232,6 +232,10 @@ span {
 	z-index: 2;
 }
 
+.header__default{
+	background-color: rgba(255,255,255,.8);
+}
+
 /* main-visual
 ------------------------------------------ */
 .main-visual__container {
@@ -387,6 +391,9 @@ span {
 /*slick設定*/
 .slick-initialized .slick-slide {
 	display: flex;
+}
+.slick-list{
+	z-index: -1;
 }
 
 /*slick arrow部分*/

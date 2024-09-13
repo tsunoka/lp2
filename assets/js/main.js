@@ -55,12 +55,9 @@ function slick_resize() {
 $('.qa__accordion-title').on('click', function (e) {
     // .accordion-contentを選択
     var content = $(e.target).next();
-    console.log(e.target);
 
     //矢印を取得
     var caret = $(e.target).children("i");
-    console.log(caret);
-
 
     //矢印の上下を切り替える
     if ($(caret).hasClass("bi bi-caret-down-fill")) {
@@ -84,5 +81,21 @@ $(function () {
             scrollTop: position
         }, speed, "swing");
         return false;
+    });
+});
+
+
+//ヘッダー 一定の位置から背景色を追加
+$(function () {
+    var imgHeight = $('.main-visual').outerHeight();
+    console.log(imgHeight);
+    var header = $('.header');
+
+    $(window).on('load scroll', function () {
+        if ($(window).scrollTop() < imgHeight) {
+            header.removeClass('header__default');
+        } else {
+            header.addClass('header__default');
+        }
     });
 });
