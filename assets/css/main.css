@@ -46,6 +46,17 @@ span {
 	display: block;
 }
 
+/*SPのみ、余白ができるように調整*/
+main {
+	padding: 0 clamp(0rem, -12.155rem + 49.87vw, 11.75rem);
+}
+
+@media(min-width:768px) {
+	main {
+		padding: 0;
+	}
+}
+
 /* フォント
 ------------------------------------------ */
 
@@ -219,7 +230,7 @@ span {
 	top: 0;
 	left: 0;
 	right: 0;
-	z-index:2;
+	z-index: 2;
 }
 
 .header__container {
@@ -233,8 +244,8 @@ span {
 	z-index: 2;
 }
 
-.header__default{
-	background-color: rgba(255,255,255,.8);
+.header__default {
+	background-color: rgba(255, 255, 255, .8);
 }
 
 /* main-visual
@@ -350,6 +361,7 @@ span {
 .voices .container {
 	margin: 50px 30px;
 }
+
 /*PC*/
 @media(min-width:768px) {
 	.voices .container {
@@ -381,11 +393,12 @@ span {
 	line-height: 2;
 	letter-spacing: 0;
 }
+
 /*PC*/
-@media(min-width:768px){
-	.voices__text{
-		font-size:16px;
-		line-height:1.75;
+@media(min-width:768px) {
+	.voices__text {
+		font-size: 16px;
+		line-height: 1.75;
 	}
 }
 
@@ -393,7 +406,8 @@ span {
 .slick-initialized .slick-slide {
 	display: flex;
 }
-.slick-list{
+
+.slick-list {
 	z-index: -1;
 }
 
@@ -424,23 +438,23 @@ span {
 }
 
 /*PC*/
-@media(min-width:768px){
-	.custom-arrows{
-		top:45%;
-		width:45px;
-		height:45px;
+@media(min-width:768px) {
+	.custom-arrows {
+		top: 45%;
+		width: 45px;
+		height: 45px;
 	}
 
-	.custom-arrows i{
-		font-size:40px;
+	.custom-arrows i {
+		font-size: 40px;
 	}
 
-	.custom-arrows__prev{
-		left:-57px;
+	.custom-arrows__prev {
+		left: -57px;
 	}
 
-	.custom-arrows__next{
-		right:-57px;
+	.custom-arrows__next {
+		right: -57px;
 	}
 
 }
@@ -466,9 +480,9 @@ span {
 }
 
 /*PC*/
-@media(min-width:768px){
-	.slick-dots{
-		bottom:-18px;
+@media(min-width:768px) {
+	.slick-dots {
+		bottom: -18px;
 	}
 }
 
