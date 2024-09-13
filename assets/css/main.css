@@ -219,6 +219,7 @@ span {
 	top: 0;
 	left: 0;
 	right: 0;
+	z-index:2;
 }
 
 .header__container {
@@ -404,8 +405,6 @@ span {
 	height: 30px;
 	position: absolute;
 	top: 50%;
-
-	z-index: 10;
 }
 
 .custom-arrows i {
