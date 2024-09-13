@@ -254,6 +254,12 @@ main {
 	z-index: 2;
 }
 
+@media(min-width:768px){
+	.header__site-name{
+		font-size:28px;
+	}
+}
+
 .header__default {
 	background-color: rgba(255, 255, 255, .8);
 }
@@ -681,6 +687,6 @@ main {
 
 	.footer__copyright {
 		font-size: 11px;
-		white-space: wrap;
+		white-space:inherit;
 	}
 }
