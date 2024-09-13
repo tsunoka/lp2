@@ -264,6 +264,7 @@ main {
 @media(min-width:768px) {
 	.main-visual__container {
 		background-image: url("../images/mv_pc_01.jpg");
+		background-position: center;
 		height: 720px;
 		padding: 50px 13% 0;
 	}
@@ -340,6 +341,7 @@ main {
 	.feature {
 		height: 550px;
 		background-image: url("../images/index_feature_pc_03.jpg");
+		background-position: center;
 	}
 
 	.feature .container {
