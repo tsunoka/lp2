@@ -46,7 +46,7 @@ span {
 	display: block;
 }
 
-/*SPのみ、余白ができるように調整*/
+/*コンテンツ幅を超える幅の時、余白ができるように調整*/
 main {
 	padding: 0 clamp(0rem, -12.155rem + 49.87vw, 11.75rem);
 }
