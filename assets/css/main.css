@@ -378,10 +378,11 @@ main {
 	}
 
 	.feature .container {
-		width: 510px;
-		margin-top: clamp(7.188rem, 6.86rem + 0.68vw, 7.5rem);
-		margin-left: clamp(8.063rem, -37.577rem + 95.08vw, 51.563rem);
-		padding: 0 30px;
+		width: 570px;
+		margin-top: 120px;
+		margin-right:0;
+		margin-left: auto;
+		padding: 0 60px;
 	}
 
 	.feature__heading {
