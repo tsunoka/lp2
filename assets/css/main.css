@@ -3,9 +3,9 @@
 /* ページ全体のスタイル
 ------------------------------------------ */
 
-/**{
-	outline:solid 1px #000;
-}*/
+* {
+	outline: solid 1px #000;
+}
 
 body {
 	/*font:noto-serif-jp-regular*/
@@ -107,6 +107,24 @@ main {
 @media(min-width:768px) {
 	.container {
 		margin: 50px 15%;
+	}
+}
+
+/*PC表示のみ:inner*/
+@media(min-width:768px) {
+	.inner {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding:20px;
+
+	}
+}
+/*コンテンツ幅に到達するまでinnerの中身が動かないように設定*/
+@media(min-width:1150px){
+	.inner{
+		width:1150px;
+		margin:0 auto;
 	}
 }
 
@@ -255,9 +273,9 @@ main {
 	z-index: 2;
 }
 
-@media(min-width:768px){
-	.header__site-name{
-		font-size:28px;
+@media(min-width:768px) {
+	.header__site-name {
+		font-size: 28px;
 	}
 }
 
@@ -267,6 +285,7 @@ main {
 
 /* main-visual
 ------------------------------------------ */
+
 .main-visual__container {
 	padding: 50px clamp(1.063rem, -4.304rem + 22.02vw, 6.25rem) 0;
 	background-image: url("../images/mv_sp_02.jpg");
@@ -279,7 +298,7 @@ main {
 	.main-visual__container {
 		background-image: url("../images/mv_pc_01.jpg");
 		height: 720px;
-		padding: 50px clamp(3.75rem, -13.125rem + 27vw, 12.188rem) 0;
+		padding: 50px 0 0;
 	}
 }
 
@@ -330,8 +349,8 @@ main {
 	align-items: center;
 }
 
-.feature .container{
-	width:356px;
+.feature .container {
+	width: 356px;
 }
 
 .feature__heading {
@@ -365,7 +384,7 @@ main {
 		width: 510px;
 		margin-top: clamp(7.188rem, 6.86rem + 0.68vw, 7.5rem);
 		margin-left: clamp(8.063rem, -37.577rem + 95.08vw, 51.563rem);
-		padding:0 30px;
+		padding: 0 30px;
 	}
 
 	.feature__heading {
@@ -395,13 +414,13 @@ main {
 	}
 }
 
-.voices__customers-list{
+.voices__customers-list {
 	width: 356px;
 }
 
-@media(min-width:768px){
-	.voices__customers-list{
-		width:100%;
+@media(min-width:768px) {
+	.voices__customers-list {
+		width: 100%;
 	}
 }
 
@@ -540,7 +559,7 @@ main {
 .qa__accordion {
 	overflow: hidden;
 	margin-bottom: 20px;
-	width:356px;
+	width: 356px;
 }
 
 @media(min-width:768px) {
@@ -696,7 +715,7 @@ main {
 
 	.footer__nav ul {
 		flex-wrap: wrap;
-		row-gap:10px;
+		row-gap: 10px;
 		justify-content: left;
 	}
 
@@ -706,6 +725,6 @@ main {
 
 	.footer__copyright {
 		font-size: 11px;
-		white-space:inherit;
+		white-space: inherit;
 	}
 }
