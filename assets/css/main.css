@@ -13,7 +13,7 @@ body {
 	font-weight: 400;
 	font-style: normal;
 
-	letter-spacing: 1px;
+	letter-spacing: .0625rem;
 }
 
 a {
@@ -83,19 +83,19 @@ span {
 /* 使いまわす設定
 ------------------------------------------ */
 .container {
-	margin: 50px 17px;
+	margin: 3.125rem 1.0625rem;
 }
 
 @media(min-width:768px) {
 	.container {
-		margin: 50px 15%;
+		margin: 3.125rem 15%;
 	}
 }
 
 /*PC表示のみ:inner*/
 @media(min-width:768px) {
 	.inner {
-		padding: 20px;
+		padding: 1.25rem;
 
 	}
 }
@@ -103,8 +103,8 @@ span {
 /*コンテンツ幅に到達するまでinnerの中身が動かないように設定*/
 @media(min-width:1150px) {
 	.inner {
-		width: 1150px;
-		padding: 20px;
+		width: 71.875rem;
+		padding: 1.25rem;
 		margin: 0 auto;
 	}
 }
@@ -112,22 +112,22 @@ span {
 /*セクションタイトル*/
 .section-title {
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 1.875rem;
 }
 
 .section-title__en {
-	font-size: 31px;
-	margin-bottom: 2px;
+	font-size: 1.9375rem;
+	margin-bottom: .125rem;
 }
 
 @media(min-width:768px) {
 	.section-title__en {
-		font-size: 45px;
-		margin-bottom: 5px;
+		font-size: 2.8125rem;
+		margin-bottom: .3125rem;
 	}
 
 	.section-title__ja {
-		font-size: 19px;
+		font-size: 1.1875rem;
 	}
 }
 
@@ -136,54 +136,54 @@ span {
 .shop-buttons .container {
 	background-color: #f0f4ff;
 	text-align: center;
-	padding: 25px 18px;
+	padding: 1.5625rem 1.125rem;
 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	row-gap: 18px;
+	row-gap: 1.125rem;
 }
 
 .shop-buttons__second .container {
-	margin-bottom: 10px;
+	margin-bottom: .625rem;
 }
 
 .shop-buttons__item-name {
-	font-size: 18px;
-	letter-spacing: 2px;
+	font-size: 1.125rem;
+	letter-spacing: .125rem;
 }
 
 .shop-buttons__item-price {
-	font-size: 14px;
-	margin-top: 4px;
+	font-size: .875rem;
+	margin-top: .25rem;
 	color: #111;
 }
 
 /*ボタン部分*/
 .shop-buttons__button a {
 	color: #fff;
-	width: 300px;
-	padding: 17px 30px;
+	width: 18.75rem;
+	padding: 1.0625rem 1.875rem;
 	border-radius: 3rem;
-	font-size: 17px;
+	font-size: 1.0625rem;
 }
 
 .shop-buttons__buttons-container {
 	display: flex;
 	flex-direction: column;
-	row-gap: 17px;
+	row-gap: 1.0625rem;
 }
 
 /*色指定：通常時*/
 .shop-buttons__online-shop a {
 	background-color: #46c4db;
-	border: solid 2px #46c4db;
+	border: solid .125rem #46c4db;
 
 }
 
 .shop-buttons__buy a {
 	background-color: #5dd5ab;
-	border: solid 2px #5dd5ab;
+	border: solid .125rem #5dd5ab;
 
 }
 
@@ -204,11 +204,11 @@ span {
 @media(min-width:768px) {
 	.shop-buttons .container {
 		flex-direction: row;
-		column-gap: 70px;
+		column-gap: 4.375rem;
 		justify-content: center;
 		flex-wrap: wrap;
-		margin: 25px 60px;
-		padding: 35px 30px;
+		margin: 1.5625rem 3.75rem;
+		padding: 2.1875rem 1.875rem;
 	}
 
 	.shop-buttons__second .container {
@@ -225,19 +225,19 @@ span {
 	}
 
 	.shop-buttons__item-name {
-		font-size: 25px;
+		font-size: 1.5625rem;
 		white-space: nowrap;
 	}
 
 	.shop-buttons__item-price {
-		font-size: 16px;
+		font-size: 1rem;
 	}
 
 
 	/*ボタン部分*/
 	.shop-buttons__buttons-container {
 		flex-direction: row;
-		column-gap: 30px;
+		column-gap: 1.875rem;
 		flex-wrap: wrap;
 		justify-content: center;
 	}
@@ -259,19 +259,19 @@ span {
 }
 
 .header__site-name {
-	font-size: 25px;
-	letter-spacing: 5px;
-	padding: 20px 0;
+	font-size: 1.5625rem;
+	letter-spacing: .3125rem;
+	padding: 1.25rem 0;
 	z-index: 2;
 }
 
 @media(min-width:768px) {
 	.header {
-		padding-top: 10px;
+		padding-top: .625rem;
 	}
 
 	.header__site-name {
-		font-size: 28px;
+		font-size: 1.75rem;
 	}
 }
 
@@ -283,7 +283,7 @@ span {
 ------------------------------------------ */
 
 .main-visual__container {
-	padding: 50px clamp(1.063rem, -4.304rem + 22.02vw, 6.25rem) 0;
+	padding: 3.125rem clamp(1.063rem, -4.304rem + 22.02vw, 6.25rem) 0;
 	background-image: url("../images/mv_sp_02.jpg");
 	background-position: 50% 0;
 	object-fit: cover;
@@ -293,48 +293,48 @@ span {
 @media(min-width:768px) {
 	.main-visual__container {
 		background-image: url("../images/mv_pc_01.jpg");
-		height: 720px;
-		padding: 50px 0 0;
+		height: 45rem;
+		padding: 3.125rem 0 0;
 	}
 }
 
 /*タイトル部分*/
 .main-visual__heading {
-	padding-top: 370px;
+	padding-top: 23.125rem;
 }
 
 .main-visual__item-name {
-	font-size: 45px;
-	letter-spacing: 11px;
+	font-size: 2.8125rem;
+	letter-spacing: .6875rem;
 }
 
 .main-visual__subtext {
-	margin-top: 10px;
-	letter-spacing: 6px;
-	font-size: 22px;
+	margin-top: .625rem;
+	letter-spacing: .375rem;
+	font-size: 1.375rem;
 }
 
 /*PC*/
 @media(min-width:768px) {
 	.main-visual__heading {
-		padding-top: 200px;
+		padding-top: 12.5rem;
 	}
 
 	.main-visual__item-name {
-		font-size: 54px;
-		letter-spacing: 15px;
+		font-size: 3.375rem;
+		letter-spacing: 0.9375rem;
 	}
 
 	.main-visual__subtext {
-		font-size: 28px;
-		margin-top: 13px;
+		font-size: 1.75rem;
+		margin-top: .8125rem;
 	}
 }
 
 /* feature
 ------------------------------------------ */
 .feature {
-	height: 680px;
+	height: 42.5rem;
 	background-image: url("../images/index_feature_sp_04.jpg");
 	background-position: 50%;
 	object-fit: cover;
@@ -346,25 +346,25 @@ span {
 }
 
 .feature .container {
-	width: 356px;
+	width: 22.25rem;
 }
 
 .feature__heading {
 	text-align: center;
-	margin-bottom: 17px;
+	margin-bottom: 1.0625rem;
 }
 
 .feature__heading-en {
-	font-size: 30px;
-	margin-bottom: 10px;
+	font-size: 1.875rem;
+	margin-bottom: .625rem;
 }
 
 .feature__heading-ja {
-	font-size: 25px;
+	font-size: 1.5625rem;
 }
 
 .feature__text {
-	font-size: 13px;
+	font-size: .8125rem;
 	line-height: 2.5;
 }
 
@@ -372,16 +372,16 @@ span {
 
 @media(min-width:768px) {
 	.feature {
-		height: 550px;
+		height: 34.375rem;
 		background-image: url("../images/index_feature_pc_03.jpg");
 	}
 
 	.feature .container {
-		width: 570px;
-		margin-top: 120px;
+		width: 35.625rem;
+		margin-top: 7.5rem;
 		margin-right: 0;
 		margin-left: auto;
-		padding: 0 60px;
+		padding: 0 3.75rem;
 	}
 
 	.feature__heading {
@@ -389,11 +389,11 @@ span {
 	}
 
 	.feature__heading-en {
-		font-size: 38px;
+		font-size: 2.375rem;
 	}
 
 	.feature__text {
-		font-size: 14px;
+		font-size: .875rem;
 		line-height: 2.25;
 	}
 
@@ -403,7 +403,7 @@ span {
 ------------------------------------------ */
 
 .voices .container {
-	margin: 50px 30px;
+	margin: 3.125rem 1.875rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -412,12 +412,12 @@ span {
 /*PC*/
 @media(min-width:768px) {
 	.voices .container {
-		margin: 50px 60px 80px;
+		margin: 3.125rem 3.75rem 5rem;
 	}
 }
 
 .voices__customers-list {
-	width: 356px;
+	width: 22.25rem;
 }
 
 @media(min-width:768px) {
@@ -427,8 +427,8 @@ span {
 }
 
 .voices__customer-container {
-	margin: 20px 33px;
-	padding: 30px 20px;
+	margin: 1.25rem 2.0625rem;
+	padding: 1.875rem 1.25rem;
 	background-color: #dbf7f9;
 	flex-direction: column;
 	align-items: center;
@@ -436,7 +436,7 @@ span {
 
 @media(min-width:768px) {
 	.voices__customer-container {
-		margin: 20px;
+		margin: 1.25rem;
 	}
 }
 
@@ -444,15 +444,15 @@ span {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 20px;
+	margin-bottom: 1.25rem;
 }
 
 .voices__customer-info img {
-	margin-bottom: 7px;
+	margin-bottom: .4375rem;
 }
 
 .voices__text {
-	font-size: 14px;
+	font-size: .875rem;
 	line-height: 2;
 	letter-spacing: 0;
 }
@@ -460,7 +460,7 @@ span {
 /*PC*/
 @media(min-width:768px) {
 	.voices__text {
-		font-size: 15px;
+		font-size: .9375rem;
 		line-height: 1.75;
 	}
 }
@@ -478,8 +478,8 @@ span {
 .custom-arrows {
 	background-color: #00afbf;
 	border-radius: 10rem;
-	width: 30px;
-	height: 30px;
+	width: 1.875rem;
+	height: 1.875rem;
 	position: absolute;
 	top: 50%;
 }
@@ -488,16 +488,16 @@ span {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 28px;
+	font-size: 1.75rem;
 	color: #fff;
 }
 
 .custom-arrows__prev {
-	left: -2px;
+	left: -.125rem;
 }
 
 .custom-arrows__next {
-	right: -2px;
+	right: -.125rem;
 }
 
 /*PC*/
@@ -509,30 +509,30 @@ span {
 	}
 
 	.custom-arrows i {
-		font-size: 40px;
+		font-size: 2.5rem;
 	}
 
 	.custom-arrows__prev {
-		left: -57px;
+		left: -3.5625rem;
 	}
 
 	.custom-arrows__next {
-		right: -57px;
+		right: -3.5625rem;
 	}
 
 }
 
 /*ドット部分*/
 .slick-dots {
-	bottom: -12px;
+	bottom: -.75rem;
 }
 
 .slick-dots li {
-	width: 10px;
+	width: .625rem;
 }
 
 .slick-dots li button:before {
-	font-size: 11px;
+	font-size: .6875rem;
 	color: #eee;
 	opacity: 1;
 }
@@ -545,7 +545,7 @@ span {
 /*PC*/
 @media(min-width:768px) {
 	.slick-dots {
-		bottom: -18px;
+		bottom: -1.125rem;
 	}
 }
 
@@ -559,13 +559,13 @@ span {
 }
 
 .qa .container {
-	margin-top: 35px;
-	margin-bottom: 15px;
+	margin-top: 2.1875rem;
+	margin-bottom: .9375rem;
 }
 
 @media(min-width:768px) {
 	.qa .section-title {
-		margin-bottom: 40px;
+		margin-bottom: 2.5rem;
 	}
 }
 
@@ -573,14 +573,14 @@ span {
 /*アコーディオンメニュー*/
 .qa__accordion {
 	overflow: hidden;
-	margin-bottom: 20px;
-	width: 356px;
+	margin-bottom: 1.25rem;
+	width: 22.25rem;
 }
 
 @media(min-width:768px) {
 	.qa__accordion {
-		width: 600px;
-		margin-bottom: 25px;
+		width: 37.5rem;
+		margin-bottom: 1.5625rem;
 	}
 }
 
@@ -600,11 +600,11 @@ span {
 }
 
 .qa__accordion-title i {
-	margin-top: 4px;
+	margin-top: .25rem;
 }
 
 .qa__accordion-heading {
-	margin-right: 10px;
+	margin-right: .625rem;
 }
 
 /* アコーディオンのコンテンツ部分 */
@@ -617,34 +617,34 @@ span {
 .qa__accordion-question,
 .qa__accordion-answer {
 	display: flex;
-	font-size: 14px;
+	font-size: .875rem;
 }
 
 .qa__accordion-question {
-	padding: 15px 13px;
+	padding: .9375rem .8125rem;
 }
 
 .qa__accordion-answer {
-	padding: 0 13px 25px;
+	padding: 0 .8125rem 1.5625rem;
 }
 
 .qa__accordion-heading {
-	font-size: 15px;
+	font-size: .9375rem;
 }
 
 @media(min-width:768px) {
 
 	.qa__accordion-question,
 	.qa__accordion-answer {
-		font-size:12px;
+		font-size:.75rem;
 	}
 
 	.qa__accordion-question {
-		padding: 15px 20px;
+		padding: .9375rem 1.25rem;
 	}
 
 	.qa__accordion-answer {
-		padding: 0 34px 25px 20px;
+		padding: 0 2.125rem 1.5625rem 1.25rem;
 	}
 
 
@@ -655,7 +655,7 @@ span {
 	}
 
 	.qa__accordion-heading {
-		font-size: 19px;
+		font-size: 1.1875rem;
 	}
 }
 
@@ -663,7 +663,7 @@ span {
 .qa__accordion-text {
 	line-height: 1.75;
 	letter-spacing: 0;
-	font-size: 15px;
+	font-size: .9375rem;
 }
 
 .qa__accordion-question .qa__accordion-text {
@@ -678,7 +678,7 @@ span {
 
 .footer__back-to-top {
 	text-align: right;
-	margin-right: 20px;
+	margin-right: 1.25rem;
 	margin-left: auto;
 }
 
@@ -686,20 +686,20 @@ span {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	width: 40px;
-	height: 40px;
+	width: 2.5rem;
+	height: 2.5rem;
 	background-color: #0071ce;
 }
 
 .footer__back-to-top i {
 	color: #fff;
-	font-size: 30px;
-	margin-bottom: 6px;
+	font-size: 1.875rem;
+	margin-bottom: .375rem;
 }
 
 @media(min-width:768px) {
 	.footer__back-to-top {
-		margin-right: 150px;
+		margin-right: 9.375rem;
 	}
 
 }
@@ -709,59 +709,59 @@ span {
 	background-color: #0071ce;
 	color: #fff;
 	text-align: center;
-	padding: 23px 40px;
+	padding: 1.4375rem 2.5rem;
 	white-space: nowrap;
 }
 
 .footer__site-name {
-	font-size: 28px;
-	letter-spacing: 6px;
+	font-size: 1.75rem;
+	letter-spacing: .375rem;
 }
 
 .footer__nav ul {
 	display: flex;
-	column-gap: 24px;
-	margin: 25px 0;
+	column-gap: 1.5rem;
+	margin: 1.5625rem 0;
 	justify-content: center;
 }
 
 .footer__nav ul li a {
 	color: #fff;
-	font-size: 12px;
+	font-size: .75rem;
 }
 
 .footer__copyright {
-	font-size: 10.5px;
-	letter-spacing: 0px;
+	font-size: .6563rem;
+	letter-spacing: 0;
 }
 
 /*PC*/
 @media(min-width:768px) {
 	.footer__container {
-		padding: 30px clamp(1.625rem, -8.473rem + 21.04vw, 11.25rem);
+		padding: 1.875rem clamp(1.625rem, -8.473rem + 21.04vw, 11.25rem);
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		column-gap: 50px;
+		column-gap: 3.125rem;
 	}
 
 	.footer__site-name {
-		font-size: 31px;
-		letter-spacing: 9px;
+		font-size: 1.9375rem;
+		letter-spacing: .5625rem;
 	}
 
 	.footer__nav ul {
 		flex-wrap: wrap;
-		row-gap: 10px;
+		row-gap: .625rem;
 		justify-content: left;
 	}
 
 	.footer__nav ul li a {
-		font-size: 13px;
+		font-size: .8125rem;
 	}
 
 	.footer__copyright {
-		font-size: 13px;
+		font-size: .8125rem;
 		white-space: inherit;
 	}
 }
