@@ -47,6 +47,7 @@ span {
 }
 
 /*コンテンツ幅を超える幅の時、余白ができるように調整*/
+/*
 main {
 	padding: 0 clamp(0rem, -12.155rem + 49.87vw, 11.75rem);
 }
@@ -62,7 +63,7 @@ main {
 		padding: 0 clamp(0rem, -55.804rem + 59.52vw, 15.625rem);
 	}
 }
-
+*/
 /* フォント
 ------------------------------------------ */
 
@@ -269,6 +270,7 @@ main {
 .main-visual__container {
 	padding: 50px 17px 0;
 	background-image: url("../images/mv_sp_02.jpg");
+	background-position: 50% 0;
 	object-fit: cover;
 }
 
@@ -276,7 +278,7 @@ main {
 @media(min-width:768px) {
 	.main-visual__container {
 		background-image: url("../images/mv_pc_01.jpg");
-		background-position: center;
+
 		height: 720px;
 		padding: 50px clamp(3.75rem, -13.125rem + 27vw, 12.188rem) 0;
 	}
@@ -320,6 +322,7 @@ main {
 .feature {
 	height: 680px;
 	background-image: url("../images/index_feature_sp_04.jpg");
+	background-position: 50%;
 	object-fit: cover;
 	color: #fff;
 
@@ -353,7 +356,6 @@ main {
 	.feature {
 		height: 550px;
 		background-image: url("../images/index_feature_pc_03.jpg");
-		background-position: center;
 	}
 
 	.feature .container {
