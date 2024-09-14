@@ -408,7 +408,7 @@ main {
 /*PC*/
 @media(min-width:768px) {
 	.voices .container {
-		margin: 50px 16% 80px;
+		margin: 50px 60px 80px;
 	}
 }
 
