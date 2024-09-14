@@ -268,7 +268,7 @@ main {
 /* main-visual
 ------------------------------------------ */
 .main-visual__container {
-	padding: 50px 17px 0;
+	padding: 50px clamp(1.063rem, -4.304rem + 22.02vw, 6.25rem) 0;
 	background-image: url("../images/mv_sp_02.jpg");
 	background-position: 50% 0;
 	object-fit: cover;
@@ -278,7 +278,6 @@ main {
 @media(min-width:768px) {
 	.main-visual__container {
 		background-image: url("../images/mv_pc_01.jpg");
-
 		height: 720px;
 		padding: 50px clamp(3.75rem, -13.125rem + 27vw, 12.188rem) 0;
 	}
