@@ -412,7 +412,7 @@ span {
 /*PC*/
 @media(min-width:768px) {
 	.voices .container {
-		margin: 3.125rem 3.75rem 5rem;
+		margin: 3.125rem 3.75rem;
 	}
 }
 
