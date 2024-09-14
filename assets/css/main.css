@@ -113,9 +113,6 @@ main {
 /*PC表示のみ:inner*/
 @media(min-width:768px) {
 	.inner {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
 		padding:20px;
 
 	}
@@ -124,6 +121,7 @@ main {
 @media(min-width:1150px){
 	.inner{
 		width:1150px;
+		padding: 20px;
 		margin:0 auto;
 	}
 }
@@ -222,10 +220,9 @@ main {
 		column-gap: 70px;
 		justify-content: center;
 		flex-wrap: wrap;
-
-		margin: 40px 15%;
-		padding: 35px 10px;
-	}
+		margin: 40px 60px;
+		padding: 35px 30px;
+		}
 
 	/*商品タイトル部分*/
 	.shop-buttons__item {
