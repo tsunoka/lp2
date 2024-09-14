@@ -3,10 +3,10 @@
 /* ページ全体のスタイル
 ------------------------------------------ */
 
-* {
+/** {
 	outline: solid 1px #000;
 }
-
+*/
 body {
 	/*font:noto-serif-jp-regular*/
 	font-family: "Noto Serif JP", serif;
@@ -46,24 +46,6 @@ span {
 	display: block;
 }
 
-/*コンテンツ幅を超える幅の時、余白ができるように調整*/
-/*
-main {
-	padding: 0 clamp(0rem, -12.155rem + 49.87vw, 11.75rem);
-}
-
-@media(min-width:768px) {
-	main{
-		padding: 0;
-	}
-}
-
-@media(min-width:1500px) {
-	main {
-		padding: 0 clamp(0rem, -55.804rem + 59.52vw, 15.625rem);
-	}
-}
-*/
 /* フォント
 ------------------------------------------ */
 
