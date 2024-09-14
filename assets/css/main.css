@@ -330,6 +330,10 @@ main {
 	align-items: center;
 }
 
+.feature .container{
+	width:356px;
+}
+
 .feature__heading {
 	text-align: center;
 	margin-bottom: 17px;
@@ -379,12 +383,25 @@ main {
 
 .voices .container {
 	margin: 50px 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 /*PC*/
 @media(min-width:768px) {
 	.voices .container {
 		margin: 50px 16% 80px;
+	}
+}
+
+.voices__customers-list{
+	width: 356px;
+}
+
+@media(min-width:768px){
+	.voices__customers-list{
+		width:100%;
 	}
 }
 
@@ -523,6 +540,7 @@ main {
 .qa__accordion {
 	overflow: hidden;
 	margin-bottom: 20px;
+	width:356px;
 }
 
 @media(min-width:768px) {
