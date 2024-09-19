@@ -290,7 +290,7 @@ span {
 	padding: 3.125rem clamp(1.063rem, -4.304rem + 22.02vw, 6.25rem) 0;
 	background-image: url("../images/mv_sp_02.jpg");
 	background-position: 50% 0;
-	object-fit: cover;
+	background-size: cover;
 }
 
 /*PC*/
@@ -341,7 +341,7 @@ span {
 	height: 42.5rem;
 	background-image: url("../images/index_feature_sp_04.jpg");
 	background-position: 50%;
-	object-fit: cover;
+	background-size: cover;
 	color: #fff;
 
 	display: flex;
