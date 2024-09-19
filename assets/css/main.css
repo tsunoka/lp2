@@ -743,7 +743,7 @@ span {
 /*PC*/
 @media(min-width:768px) {
 	.footer__container {
-		padding: 1.875rem clamp(1.625rem, -8.473rem + 21.04vw, 11.25rem);
+		padding: .875rem clamp(1.625rem, -8.473rem + 21.04vw, 11.25rem);
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -766,7 +766,7 @@ span {
 	}
 
 	.footer__copyright {
-		font-size: .8125rem;
+		font-size: .7125rem;
 		white-space: inherit;
 	}
 }
